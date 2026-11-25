@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structdiff"
+version = "0.1.0"
+description = "Structural diffing, patching, and formatting for nested Python data structures."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "Developer Tooling", email = "dev@example.com"}
+]
+keywords = ["diff", "patch", "structure", "dict-diff", "nesting", "json-diff"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.urls]
+Homepage = "https://github.com/example/structdiff"
+
+[tool.setuptools.packages.find]
+where = ["src"]
